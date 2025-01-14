@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: 3d-website
+    env: node
+    buildCommand: npm install --legacy-peer-deps; npm run build
+    startCommand: npm run start
+    plan: free

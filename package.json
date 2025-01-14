@@ -1,0 +1,51 @@
+{
+  "name": "gaps",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@fortawesome/fontawesome-free": "^6.7.1",
+    "@mui/material": "^6.3.0",
+    "@react-three/drei": "^9.120.5",
+    "@react-three/fiber": "^8.14.0",
+    "@react-three/offscreen": "^0.0.8",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.3",
+    "drei": "^2.2.21",
+    "formidable": "^3.5.2",
+    "gsap": "^3.12.5",
+    "jquery": "^3.7.1",
+    "lodash": "^4.17.21",
+    "next": "^15.0.3",
+    "nodemailer": "^6.9.16",
+    "patch-package": "^8.0.0",
+    "r3f-perf": "^7.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.4.0",
+    "react-router-dom": "^6.17.0",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1",
+    "three": "^0.155.0",
+    "three-mesh-bvh": "^0.3.0"
+  },
+  "devDependencies": {
+    "@types/aos": "^3.0.7",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/react-slick": "^0.23.13",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "15.0.3",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
