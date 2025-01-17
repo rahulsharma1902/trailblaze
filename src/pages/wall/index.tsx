@@ -1,5 +1,5 @@
 import { Canvas } from '@react-three/fiber';
-import { PerspectiveCamera, OrbitControls, Environment } from '@react-three/drei';
+import { PerspectiveCamera, OrbitControls, Sky, SpotLight } from '@react-three/drei';
 import React, { useRef, useEffect, useState, Suspense, useCallback } from 'react';
 import gsap from 'gsap';
 import LoadingScreen from '@/pages/components/Loading'; 
@@ -139,18 +139,18 @@ export default function GapsPage() {
   return (
     <div style={{ width: '100vw', height: '170vh', overflow: 'hidden', position: 'relative' }}>
       <Suspense fallback={<LoadingScreen />}>
-        <Canvas style={{ background: 'black' }}>
-	  <ambientLight intensity={0.5}/>
-          <Environment preset="sunset" background={false} />
+        <Canvas style={{ background: 'black' }} gl={{useLegacyLights: true}} >
+          <Sky />
+	  <SpotLight color={0x808080} position={[0, 100, 2000]} targetPosition={[0,0,0]} angle={0.2} intensity={5} />
           <PerspectiveCamera
             ref={cameraRef} // Camera reference now correctly typed
             makeDefault
             position={[0, 300, 1800]}
             fov={40}
             near={0.9}
-            far={10000}
+            far={100000}
           />
-          <OrbitControls enableZoom={false} enablePan={false} enableRotate={false} />
+          <OrbitControls enableZoom={true} enablePan={true} enableRotate={true} />
           <group ref={modelRef}>
             <Office />
           </group>

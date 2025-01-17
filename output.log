@@ -1,0 +1,23 @@
+nohup: ignoring input
+
+> gaps@0.1.0 dev
+> next dev
+
+   ▲ Next.js 15.0.3
+   - Local:        http://localhost:3000
+
+ ✓ Starting...
+ ✓ Ready in 1810ms
+ ○ Compiling / ...
+ ✓ Compiled / in 4.3s (1513 modules)
+ ✓ Compiled in 586ms (1513 modules)
+ GET / 200 in 6076ms
+ GET / 200 in 57ms
+ GET / 200 in 49ms
+ ✓ Compiled in 1428ms (1513 modules)
+ ✓ Compiled in 235ms (1225 modules)
+ GET / 200 in 217ms
+ GET / 200 in 48ms
+ GET / 200 in 25ms
+ ✓ Compiled in 1654ms (1513 modules)
+ ✓ Compiled in 530ms (1225 modules)

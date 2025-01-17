@@ -18,9 +18,9 @@ export function Office(props) {
     <group ref={group} {...props} dispose={null}>
       <group name="Scene">
         <group name="works_prev" position={[5730.657, 286.533, 2.865]}>
-          <mesh name="work_prev_01_0" castShadow receiveShadow geometry={nodes.work_prev_01_0.geometry} material={materials['material-13']} />
-          <mesh name="work_prev_05_4" castShadow receiveShadow geometry={nodes.work_prev_05_4.geometry} material={materials['material-13']} position={[3438.394, 0, 0]} />
-          <mesh name="work_prev_02_1" castShadow receiveShadow geometry={nodes.work_prev_02_1.geometry} material={materials['material-12']} position={[859.599, 0, 0]} />
+          <mesh name="work_prev_01_0" receiveShadow geometry={nodes.work_prev_01_0.geometry} material={materials['material-13']} />
+          <mesh name="work_prev_05_4" receiveShadow geometry={nodes.work_prev_05_4.geometry} material={materials['material-13']} position={[3438.394, 0, 0]} />
+          <mesh name="work_prev_02_1" receiveShadow geometry={nodes.work_prev_02_1.geometry} material={materials['material-12']} position={[859.599, 0, 0]} />
           <mesh name="work_prev_03_2" castShadow receiveShadow geometry={nodes.work_prev_03_2.geometry} material={materials['material-11']} position={[1719.197, 0, 0]} />
           <mesh name="work_prev_06_5" castShadow receiveShadow geometry={nodes.work_prev_06_5.geometry} material={materials['material-11']} position={[4297.993, 0, 0]} />
           <mesh name="work_prev_04_3" castShadow receiveShadow geometry={nodes.work_prev_04_3.geometry} material={materials['material-10']} position={[2578.795, 0, 0]} />
@@ -58,7 +58,7 @@ export function Office(props) {
         <mesh name="Tex_02_002001" castShadow receiveShadow geometry={nodes.Tex_02_002001.geometry} material={materials.Tex_02} position={[2402.937, 33.262, -189.113]} />
         <mesh name="Tex_02_001" castShadow receiveShadow geometry={nodes.Tex_02_001.geometry} material={materials.Tex_02} position={[16245.512, 64.865, -444.386]} />
         <group name="Table003" position={[4760.835, -2.09, -4306.802]} scale={157.26}>
-          <mesh name="Plane095" castShadow receiveShadow geometry={nodes.Plane095.geometry} material={materials['Material.060']} />
+          <mesh name="Plane095" castShadow receiveShadow geometry={nodes.Plane095.geometry} color={0x808080} material={materials['Material.060']} />
           <mesh name="Plane095_1" castShadow receiveShadow geometry={nodes.Plane095_1.geometry} material={materials.PaletteMaterial001} />
         </group>
         <mesh name="services_text_block" castShadow receiveShadow geometry={nodes.services_text_block.geometry} material={nodes.services_text_block.material} position={[14004.598, 252.46, 0.029]} />
@@ -82,7 +82,7 @@ export function Office(props) {
           <mesh name="Plane150_1" castShadow receiveShadow geometry={nodes.Plane150_1.geometry} material={materials.PaletteMaterial003} />
         </group>
         <group name="Main_Room001" position={[4760.835, -2.09, -4306.802]} scale={157.26}>
-          <mesh name="Cube021" castShadow receiveShadow geometry={nodes.Cube021.geometry} material={materials.Wall_brick} />
+          <mesh name="Cube021" castShadow receiveShadow geometry={nodes.Cube021.geometry} color={0x808080} material={materials.Wall_brick} />
           <mesh name="Cube021_1" castShadow receiveShadow geometry={nodes.Cube021_1.geometry} material={nodes.Cube021_1.material} />
         </group>
         <group name="High009" position={[4934.813, -2.09, -4306.802]} scale={157.26}>

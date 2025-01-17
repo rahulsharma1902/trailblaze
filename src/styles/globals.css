@@ -65,10 +65,34 @@
   }
 } */
 
+/* css by rahul-17jan */
+
+.container-fluid {
+  pointer-events: none;
+}
+
+header#header {
+  pointer-events: none;
+}
+
+button.nav-btn.rounded {
+  pointer-events: auto;
+}
+
+a.cta.hdr-btn.bg-btn.hdr-btn {
+  pointer-events: auto;
+}
+
+a {
+  pointer-events: auto;
+}
+/* css end by rahul-17jan  */
+
+
 body {
   scroll-behavior: smooth;
-  -webkit-user-select: none; /* Safari */
-  -ms-user-select: none; /* IE 10 and IE 11 */
+  -webkit-user-select: none; 
+  -ms-user-select: none;
   user-select: none;
 }
 
